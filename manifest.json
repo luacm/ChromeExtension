@@ -4,29 +4,12 @@
     "manifest_version": 2,
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
     "description": "Intro to making Chrome Extensions",
-    "icons": {
-        "128": "img/icon.png"
-    },
-    "content_scripts": [
-        {
-            "exclude_globs": [  ],
-            "include_globs": [ "*" ],
-            "css": ["css/main.css"],
-            "js": [ 
-                "js/main.js"],
-
-            "matches": [  "http://*/*",
-                "https://*/*"
-            ],
-            "run_at": "document_end"
-        }
+    "permissions": [ 
+        "https://secure.flickr.com/"
     ],
-
-    "permissions": [ "http://*/*",
-        "https://*/*"
-    ],
-
+    "browser_action": {
+        "default_popup": "main.html"
+        },
     "web_accessible_resources": [
-        "css/main.css"
     ]
 }
