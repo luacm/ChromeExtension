@@ -11,11 +11,10 @@ An extension is a program that runs in your browser and interacts with the web p
 Some example extension to help you get the idea of the power are a [browser history timeline](https://chrome.google.com/webstore/detail/history-timeline/gjhpcfomcckgcaniehfgakaddjgncpeb) and a [to-do list](https://chrome.google.com/webstore/detail/todoist-to-do-list-and-ta/fnibmbcdeepaahjmddiihohjanlimlmj/related). You can explore more extensions at the [Chrome Web Store](https://chrome.google.com/webstore/category/apps). 
 
 
-Would be helpful if you already knew
-====================================
+Would be helpful if you already knew (but don't let that hold you back)
+=======================================================================
 
 * HTML/CSS/JS
-* Chrome Browser
 * Git or some other version control
 * Basic terminal knowledge
 
@@ -33,7 +32,8 @@ Composition of a Chrome App
 ============================
 
 ### The Manifest
-A manifest describes your apps properties. In here you will give it a name, version number, description, and other important information that the browser will use when running your app. the manifest file needs to be saved in the top-level of your apps directory and it needs to be named ``` manifest.json ```. To ensure properly formed JSON, use [jsonlint.com](http://jsonlint.com/)
+A manifest describes your apps properties. In here you will give it a name, version number, description, and other important information that the browser will use when running your app. the manifest file needs to be saved in the top-level of your apps directory and it needs to be named ``` manifest.json ```. To ensure properly formed JSON, use [jsonlint.com](http://jsonlint.com/).  
+
 Example
 ```
 {
