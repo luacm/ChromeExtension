@@ -66,7 +66,7 @@ Example
 ```
 
 ### Content Scripts
-This is where we actually __do things__. 
+This is where we actually _do things_. 
 
 
 ### Testing your app
