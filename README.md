@@ -25,6 +25,35 @@ Composition of a Chrome App
 ============================
 
 ### The Manifest
+A manifest describes your apps properties. In here you will give it a name, version number, description, and other important information that the browser will use when running your app.  
+Example
+```
+{
+    "name": "Doctor Octopus",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Atleast I graduated",
+    "icons": {
+        "16": "icon_16.png",
+        "48": "icon_48.png",
+        "128": "icon_128.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "jquery-1.8.1.min.js",
+                "contentscript.js"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": []
+}
+```
 
 ### Content Scripts
 
