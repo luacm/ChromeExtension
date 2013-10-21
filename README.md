@@ -14,9 +14,27 @@ Some example extension to help you get the idea of the power are a [browser hist
 Why are we doing this?
 ======================
 
-
+So far we have explored HTML, CSS, and Javascript which is all it takes to make a Chrome Extension, and I think making a Chrome Extension is far cooler than making a HelloWorld website.
 
 Plan
 ====
 
-Start with Google's tutorial and build off it. Then have some really cool examples to show at the end
+I'm going to walk you through making your first Chrome Extension; some topics I will cover are x, y, and z. Some topics I won't cover are a, b, and c. Google has a nice [beginner tutorial](http://developer.chrome.com/extensions/getstarted.html) that you can take a look at; I plan on showing a lot more than what they do. 
+
+Composition of a Chrome App
+============================
+
+### The Manifest
+
+### Content Scripts
+
+### Testing your app
+* You can find all of your installed chrome apps on [chrome://extensions](chrome://extensions/) and can load an unpublished extension into Chrome froms there
+
+
+Other Resources
+================
+
+* [Tutorial](http://developer.chrome.com/extensions/getstarted.html)
+* [Developer's Guide](http://developer.chrome.com/extensions/devguide.html)
+* [API](http://developer.chrome.com/extensions/api_index.html)
