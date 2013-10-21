@@ -11,17 +11,19 @@ An extension is a program that runs in your browser and interacts with the web p
 Some example extension to help you get the idea of the power are a [browser history timeline](https://chrome.google.com/webstore/detail/history-timeline/gjhpcfomcckgcaniehfgakaddjgncpeb) and a [to-do list](https://chrome.google.com/webstore/detail/todoist-to-do-list-and-ta/fnibmbcdeepaahjmddiihohjanlimlmj/related). You can explore more extensions at the [Chrome Web Store](https://chrome.google.com/webstore/category/apps). 
 
 
-Would be helpful if you already knew (but don't let that hold you back)
-=======================================================================
+Helpful to know
+================
 
 * HTML/CSS/JS
 * Git or some other version control
 * Basic terminal knowledge
 
+If you don't know, don't worry! All of these things can be picked up along the way.
+
 Why are we doing this?
 ======================
 
-So far we have explored HTML, CSS, and Javascript which is all it takes to make a Chrome Extension, and I think making a Chrome Extension is far cooler than making a HelloWorld website.
+So far we have explored HTML, CSS, and Javascript which are pretty much all the tools you need to do stuff on the web. Normally, that involves making a website but I don't want to get bogged down in pushing to servers, backend languages, frameworks, and other stuff so we'll just make a Chrome App.
 
 Plan
 ====
@@ -64,6 +66,7 @@ Example
 ```
 
 ### Content Scripts
+This is where we actually __do things__. 
 
 
 ### Testing your app
