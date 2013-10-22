@@ -28,7 +28,7 @@ So far we have explored HTML, CSS, and Javascript which are pretty much all the 
 Plan
 ====
 
-I'm going to walk you through making your first Chrome Extension; some topics I will cover are x, y, and z. Some topics I won't cover are a, b, and c. Google has a nice [beginner tutorial](http://developer.chrome.com/extensions/getstarted.html) that you can take a look at; I plan on showing a lot more than what they do. 
+I'm going to walk you through making your first Chrome Extension. Google has a nice [beginner tutorial](http://developer.chrome.com/extensions/getstarted.html) that you can take a look at; I plan on showing a lot more than what they do. 
 
 Composition of a Chrome App
 ============================
@@ -66,7 +66,7 @@ Example
 ```
 
 ### Content Scripts
-This is where we actually _do things_. 
+This is where we actually _do things_. It is injected into pages which match what your manifest specifies.
 
 
 ### Testing your app
