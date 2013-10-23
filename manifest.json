@@ -4,9 +4,10 @@
     "manifest_version": 2,
     "description": "I will be a better Spiderman. Just you wait!",
     "content_scripts": [{
-        "js": [ "js/green_with_envy.js"],
+        "js": ["js/jquery-2.0.3.js", "js/neener.js"],
         "matches": ["http://*/*",
-                    "https://*/*"]
+                    "https://*/*"],
+        "css": ["css/my_style.css"]
     }],
     "web_accessible_resources": [
     ]

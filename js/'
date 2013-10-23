@@ -1,0 +1,11 @@
+$(document).ready(function() {
+    console.log("wut");
+    $("a").hover(function() {
+        $("a").css("visibility:hidden;");
+        $("a").attr("href", "#");
+    }, function() {
+        $("a").text("Neener");
+        $("a").css("visibility:visibile;");
+    });
+    console.log("Finished!");
+});
