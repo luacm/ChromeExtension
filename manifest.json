@@ -1,15 +1,13 @@
 {
-    "name": "ChromeExtIntro",
+    "name": "Doctor Octavius",
     "version": "1.0",
     "manifest_version": 2,
-    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-    "description": "Intro to making Chrome Extensions",
-    "permissions": [ 
-        "https://secure.flickr.com/"
-    ],
-    "browser_action": {
-        "default_popup": "main.html"
-        },
+    "description": "I will be a better Spiderman. Just you wait!",
+    "content_scripts": [{
+        "js": [ "js/green_with_envy.js"],
+        "matches": ["http://*/*",
+                    "https://*/*"]
+    }],
     "web_accessible_resources": [
     ]
 }
